@@ -1,5 +1,5 @@
 
-var currentTime = new Date();
+var currentTime = moment().format("dddd, MM/DD/YY");
 document.getElementById("currentDay").innerHTML = currentTime;
 
 
@@ -7,3 +7,4 @@ document.getElementById("currentDay").innerHTML = currentTime;
 // var currentTime = new Date();
 // displayCurrentTime = document.querySelector("#currentDay");
 // displayCurrentTime.textContent = currentTime;
+
