@@ -1,3 +1,4 @@
+// Displays the current day at the top of the page
 
 var currentTime = moment().format("dddd, MM/DD/YY");
 document.getElementById("currentDay").innerHTML = currentTime;
@@ -9,6 +10,10 @@ document.getElementById("currentDay").innerHTML = currentTime;
 // displayCurrentTime.textContent = currentTime;
 
 
+// Changes the color of the time block depending on the current time
+// If it's in the past it's grey
+// If it's the current time it's red
+// If it's in the future it's green
 
 $("textarea").each(function () {
     hour = moment().format("H");
@@ -23,6 +28,8 @@ $("textarea").each(function () {
         $(this).addClass("present")
     }
 });
+
+// Saves the content of each time block to Local Storage
 
 $(".btn9").on("click", function () {
     var text = $("#9").val();
