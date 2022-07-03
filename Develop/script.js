@@ -23,3 +23,49 @@ $("textarea").each(function () {
         $(this).addClass("present")
     }
 });
+
+$(".btn9").on("click", function () {
+    var text = $("#9").val();
+    localStorage.setItem("09:00", text)
+});
+
+$(".btn10").on("click", function () {
+    var text = $("#10").val();
+    localStorage.setItem("10:00", text)
+});
+
+$(".btn11").on("click", function () {
+    var text = $("#11").val();
+    localStorage.setItem("11:00", text)
+});
+
+$(".btn12").on("click", function () {
+    var text = $("#12").val();
+    localStorage.setItem("12:00", text)
+});
+
+$(".btn13").on("click", function () {
+    var text = $("#13").val();
+    localStorage.setItem("13:00", text)
+});
+
+$(".btn14").on("click", function () {
+    var text = $("#14").val();
+    localStorage.setItem("14:00", text)
+});
+
+$(".btn15").on("click", function () {
+    var text = $("#15").val();
+    localStorage.setItem("15:00", text)
+});
+
+$(".btn16").on("click", function () {
+    var text = $("#16").val();
+    localStorage.setItem("16:00", text)
+});
+
+$(".btn17").on("click", function () {
+    var text = $("#17").val();
+    localStorage.setItem("17:00", text)
+});
+
