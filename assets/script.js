@@ -87,7 +87,7 @@ $("#15").val(localStorage.getItem("15:00"));
 $("#16").val(localStorage.getItem("16:00"));
 $("#17").val(localStorage.getItem("17:00"));
 
-
+// Function that clears the local storage and refreshes the page leaving the planner text areas blank
 function deleteItems() {
     localStorage.clear();
     location.reload();
