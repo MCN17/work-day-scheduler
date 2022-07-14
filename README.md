@@ -11,5 +11,7 @@ To help people that have busy schedules manage their time effectively. This plan
 * Bootstrap
 
 ## Website
+https://mcn17.github.io/work-day-scheduler/
 
+![image](https://user-images.githubusercontent.com/104735194/179060787-b6e9d179-f9a4-4b36-a919-a49d28c78169.png)
 
