@@ -2,6 +2,7 @@
 
 var currentTime = moment().format("dddd, MM/DD/YY");
 document.getElementById("currentDay").innerHTML = currentTime;
+clearButtonEl = document.querySelector(".clearBtn")
 
 // Another way to get the date to display at the top of the page
 // var currentTime = new Date();
@@ -86,3 +87,10 @@ $("#15").val(localStorage.getItem("15:00"));
 $("#16").val(localStorage.getItem("16:00"));
 $("#17").val(localStorage.getItem("17:00"));
 
+
+function deleteItems() {
+    localStorage.clear();
+    location.reload();
+  }
+
+  clearButtonEl.addEventListener("click", deleteItems);
